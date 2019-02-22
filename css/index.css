@@ -332,6 +332,7 @@ footer {
 @media (max-width: 500px) {
   .home .form {
     width: 100%;
+    margin-top: 20px;
   }
 }
 .home .form input {
