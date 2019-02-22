@@ -15,9 +15,17 @@ nav {
   z-index: 1;
   opacity: 0.8;
 
+  @media @phone {
+    // width: 80%;
+  }
+
    h1 {
       font-size: 4rem;
       margin-bottom: 20px;
+
+      @media @phone {
+        display: none;
+      }
     }
 
   .menu {
@@ -27,13 +35,18 @@ nav {
     justify-content: space-between;
 
     @media @phone {
-      width: 75%;
+      width: 85%;
+      margin: 20px auto;
     }
     
     a {
       font-size: 1.6rem;
       text-decoration: none;
       color: @river-bend;
+
+      @media @phone {
+        font-size: 2.2rem;
+      }
     } // a
   } // menu
 } // nav
