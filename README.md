@@ -28,19 +28,31 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 ## Self-Study Questions
 
+Cameron MacDonald
+
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+  
+  Adaptive uses exact screen-width breakpoints to add styling changes. Responsive use a few breakpoints, and percentages to add responsiveness in between those points.
 
 2. Describe what it means to be mobile first vs desktop first.
+  
+  Styling a page using a mobile width viewport first, then scaling it up to tablet and desktop. It also means we will most-likely use min-width in our media queries, rather than max-width in desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+  
+  It sets 1rem to 10px which is easier for humans to calculate font sizes from.
 
 4. How would you describe preprocessing to someone new to CSS?
+  
+  Preprocessing allows us to write CSS code that we can reuse, by way of variables, functions, escaping, mixins, and imports, letting us write less code to do the same thing.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+  
+  I think I like escaping the best. I have trouble with parametric mixins & namespaces at the moment.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,12 +64,12 @@ Because you are using a preprocessor, there are two parts to setting up your pro
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
