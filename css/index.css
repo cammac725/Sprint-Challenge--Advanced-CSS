@@ -321,3 +321,40 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home .form {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .home .form {
+    width: 100%;
+  }
+}
+.home .form input {
+  margin-bottom: 15px;
+  padding: 6px 40px;
+}
+.home .form .btn {
+  background: #22283A;
+  color: #F6F7F8;
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 7px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.home .form .btn:hover {
+  background: #81848E;
+  color: black;
+}
+@media (max-width: 500px) {
+  .home .form .btn {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.8rem;
+  }
+}
