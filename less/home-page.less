@@ -69,11 +69,18 @@
     .flex-j-center();
 
     @media @phone {
-      margin-top: 25px;    
+      margin-top: 25px;
+      flex-direction: column-reverse;
+      padding: 3%; 
     }
 
     .walk-text {
       width: 50%;
+
+      @media @phone {
+        width: 100%;
+        margin-top: 20px; 
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -85,12 +92,22 @@
 
       .btn {
         .button-signup();
+
+        @media @phone {
+          width: 100%;
+          padding: 20px 0;
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @phone {
+        width: 100%;
+        margin-left: 0;
+      }
       
       img {
         width: 100%;
